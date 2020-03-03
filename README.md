@@ -1,5 +1,5 @@
 ## EnumClass
-[Add CSS classes based on enum values]
+[Add CSS classes based on enumeration values]
 
 ## Features
 [feature highlights]

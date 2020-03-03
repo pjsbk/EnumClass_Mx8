@@ -19,13 +19,8 @@ export class preview extends Component {
 
     transformProps(props) {
         return {
-            type: props.enumclassType,
-            bootstrapStyle: props.bootstrapStyle,
             className: props.class,
-            clickable: false,
-            style: props.styleObject,
-            defaultValue: props.enumclassValue ? props.enumclassValue : "",
-            value: props.valueAttribute
+            style: props.styleObject
         };
     }
 }

@@ -5,7 +5,7 @@
             <widgetFile path="EnumClass.xml"/>
         </widgetFiles>
         <files>
-            <file path="enumclass"/>
+            <file path="/enumclass"/>
         </files>
     </clientModule>
 </package>

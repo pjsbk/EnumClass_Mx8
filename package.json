@@ -2,7 +2,7 @@
   "name": "enumclass",
   "widgetName": "EnumClass",
   "version": "1.0.0",
-  "description": "Add CSS classes based on enum values",
+  "description": "Add CSS classes based on enumeration values",
   "copyright": "Mendix 2019",
   "author": "Pjotr Sebek",
   "config": {
