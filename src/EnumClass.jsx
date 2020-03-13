@@ -105,7 +105,7 @@ class EnumClass extends Component {
     }
 
     componentDidUpdate(){
-        let attributeValue = this.props.name ? this.props.name.displayValue : null;
+        let attributeValue = this.props.name ? this.props.name.value : null;
         if (attributeValue !== null && attributeValue !== ''){
             this._setValueAttr(attributeValue);
         }
