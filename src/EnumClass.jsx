@@ -178,7 +178,7 @@ class EnumClass extends Component {
             }
         }
         else{
-            console.warning("EnumClass: className attribute is empty, not applying class.");
+            console.warn("EnumClass: className attribute is empty, not applying class.");
         }
       
     }
@@ -191,7 +191,7 @@ class EnumClass extends Component {
             }
         }
         else{
-            console.warning("EnumClass: className attribute is empty, not removing class.");
+            console.warn("EnumClass: className attribute is empty, not removing class.");
         }
     }
 
