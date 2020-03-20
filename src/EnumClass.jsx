@@ -171,16 +171,27 @@ class EnumClass extends Component {
     }
 
     _addClass(className){
-        if (!this.elementToApplyTo.classList.contains(className)){
-            console.trace('EnumClass - adding class: ' + className);
-            this.elementToApplyTo.classList.add(className);
+        if (className !== null && className !== ""){
+            if (!this.elementToApplyTo.classList.contains(className)){
+                //console.trace('EnumClass - adding class: ' + className);
+                this.elementToApplyTo.classList.add(className);
+            }
         }
+        else{
+            console.warning("EnumClass: className attribute is empty, not applying class.");
+        }
+      
     }
 
     _removeClass(className){
-        if (this.elementToApplyTo.classList.contains(className)){
-            console.trace('EnumClass - adding class: ' + className);
-            this.elementToApplyTo.classList.remove(className);
+        if (className !== null && className !== ""){
+            if (this.elementToApplyTo.classList.contains(className)){
+                //console.trace('EnumClass - adding class: ' + className);
+                this.elementToApplyTo.classList.remove(className);
+            }
+        }
+        else{
+            console.warning("EnumClass: className attribute is empty, not removing class.");
         }
     }
 
